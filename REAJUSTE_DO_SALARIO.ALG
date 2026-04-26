@@ -1,26 +1,26 @@
 Algoritmo "reajuste_do_salario"
-// Disciplina  : [LÛgica de ProgramaÁ„o com Visualg]
+// Disciplina  : [L√≥gica de Programa√ß√£o com Visualg]
 // Professor   : Jailson Carlos dos Santos 
-// DescriÁ„o   : Leia o sal·rio mensal atual e o percentual de reajuste.
-// Calcule e escreva o valor do novo sal·rio.
+// Descri√ß√£o   : Leia o sal√°rio mensal atual e o percentual de reajuste.
+// Calcule e escreva o valor do novo sal√°rio.
 // Autor(a)    : Julia dos Santos Fernandes
 // Data atual  : 30/03/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
    salariomensal: real
    percentual: real
    aumento: real
    valornovo: real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-   escreva("Qual o seu sal·rio mensal atual? ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+   escreva("Qual o seu sal√°rio mensal atual? ")
    leia(salariomensal)
    escreva("Qual o percentual de reajuste? ")
    leia(percentual)
    aumento <- salariomensal * (percentual / 100)
-   valornovo <- salariomensal + reajuste
+   valornovo <- salariomensal + aumento
    escreval(" ")
-   escreval("Este È o reajuste do seu sal·rio: R$", valornovo)
+   escreval("Este √© o reajuste do seu sal√°rio: R$", valornovo)
 
 Fimalgoritmo
